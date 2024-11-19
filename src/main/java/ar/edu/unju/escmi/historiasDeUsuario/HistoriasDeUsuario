@@ -1,0 +1,57 @@
+Título: Registrar Usuarios 
+Descripción:
+Como administrador 
+Quiero registrar un cliente en el sistema
+Para que pueda realizar reservas de salones
+Condiciones de aceptación:
+Ingresar por consola los datos del usuario (nombre, apellido, DNI, teléfono, domicilio).
+
+Título: Consultar Clientes
+Descripción:
+Como administrador
+Quiero ver la lista de todos los clientes registrados 
+Para llevar una mejor gestión sobre las reservas 
+Condiciones de aceptación: 
+Mostrar los datos del cliente (nombre, apellido, DNI, teléfono, domicilio, estado) y ver sus reservas.
+
+Título: Modificar Cliente
+Como administrador 
+Quiero poder actualizar los datos personales del cliente
+Para asegurar que la información sea correcta
+Condiciones de aceptación:
+Ingresa por consola el id del cliente a modificar, se actualiza información y el sistema manda un mensaje que sus datos han sido actualizados correctamente.
+
+Título: Realizar reserva 
+Como administrador
+Quiero poder realizar reservas de un salón
+Para asegurar un lugar disponible en la fecha que desee el cliente 
+Condiciones de aceptación: 
+Ingresar detalles de la reserva incluyendo una fecha disponible, salón disponible, si desea agregar servicios adicionales. 
+
+Titulo: Consultar Salones disponibles 
+Como administrador
+Quiero consultar los salones disponibles 
+Para saber que salones están disponibles en cierta fecha 
+Condiciones de aceptación: 
+El administrador visualizara la lista de los salones disponibles de acuerdo a las fechas disponibles. Y se visualizara los detalles de cada salón (capacidad, si tiene pileta, etc.).
+
+Titulo: Consultar Servicios Adicionales 
+Como administrador
+Quiero consultar los servicios adicionales que puedo incluir en la reserva
+Para ofrecerlos al cliente 
+Condiciones de aceptación:
+El administrador podrá ver una lista de los servicios adicionales disponibles. Cada servicio incluye una breve descripción y su costo. El administrador puede seleccionar servicios adicionales al momento de realizar la reserva.
+
+Título: Consultar Reservas
+Como administrador 
+Quiero visualizar todas las reservas realizadas 
+Para poder gestionar el uso de los salones de manera eficiente. 
+Condiciones de aceptación: 
+Se muestra una lista de todas las reservas realizadas, incluyendo los detalles (cliente, salón, fecha, estado de la reserva).
+
+Titulo: Consultar Reserva Especifica 
+Como administrador
+Quiero consultar una reserva por medio de un id
+Para verificar información 
+Condiciones de aceptación: 
+Se mostrará la reserva deseada encontrada por su id, el cual es validado si corresponde algún cliente, incluyendo los detalles.
