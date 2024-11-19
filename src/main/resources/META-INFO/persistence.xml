@@ -16,7 +16,7 @@
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:mysql://localhost:3306/tpfinal2024?zeroDateTimeBehavior=convertToNull&amp;serverTimezone=UTC" />
 			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="contraseña" />
+			<property name="javax.persistence.jdbc.password" value="Humahuaca" />
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQL8Dialect" />
 			 <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
